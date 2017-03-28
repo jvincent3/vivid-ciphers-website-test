@@ -1,5 +1,9 @@
-
 .table{
+	display:table;
+}
+
+.block {
+	.table{
 	display:table;
 }
 
@@ -10,7 +14,7 @@
 .block1{
 	
 	display:inline-block;
-	
+	margin-top:40px;
 	
 }
 .block2{
@@ -18,42 +22,35 @@
 	display:inline-block;
 	margin-top:50px;
 	
+
 }
-.send {
-  background-color:#d05f5f;
-  padding: 0 20px;
-  margin: 12px 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  border: 0;
-  border-radius: 30px;
-  line-height: 45px;
-  width:150px;
-  height: 45px;
-  outline: none;
+.par{
+	padding-right:40px;
+}
 
 
+.mail {
 }
 .message {
-	height:205px;
-}
-.subscribe{
-	background-color:#0aa1aa;
-  padding: 0 20px;
+  padding:20px;
   margin: 12px 0;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   font-size: 18px;
   border: 0;
   border-radius: 30px;
+  background-color: #e5e5e5;
   line-height: 45px;
-  width:140px;
-  height: 45px;
+  width: calc(100% - 40px);
   outline: none;
-}
-.glyphicon {
+  height:205px;
+  width:500px;
 	
+}
+
+.glyphicon {
+	font-size:30px;
+	margin:10px;
 	color:white;
 }
 .john{
@@ -62,16 +59,23 @@
 .stay{
 	margin-bottom:50px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     
     .block1{
         display:none;
     }
+
     
     
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 	.block {
 		width:50%;
+	}
+	.mail {
+		max-width:275px
+	}
+	.message {
+		max-width:400px;
 	}
 }
