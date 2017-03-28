@@ -60,7 +60,9 @@
     .block1{
         display:none;
     }
-
+    .mail{
+    	max-width:500px;
+    }
     
     
 }
