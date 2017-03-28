@@ -15,3 +15,5 @@ Cheers!
 You can test it here:  
 https://jvincent3.github.io/vivid-ciphers-website-test/
 
+(I have only worked on the main page, I marked it in index.html the rest was done by other VIVID CIPHER members)
+
