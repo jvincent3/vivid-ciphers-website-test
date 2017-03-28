@@ -13,6 +13,5 @@ Cheers!
 ## Test pages  
 
 You can test it here:  
-* http://nikitasherbakov.com/v/  
-* http://nikitasherbakov.com/v/reg.html  
-* http://nikitasherbakov.com/v/login.html  
+https://jvincent3.github.io/vivid-ciphers-website-test/
+
