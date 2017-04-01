@@ -40,7 +40,7 @@
   width: calc(100% - 40px);
   outline: none;
   height:205px;
-  width:500px;
+  max-width:500px;
 	
 }
 
